@@ -1,15 +1,21 @@
-
-
-# Projet ISN  -- Théo Cerutti -- Hugo Mani -- 2017-2018
+# Projet ISN
 
 ## Type du jeu: Jeu des catapultes
 	
-# Bien débuter
+## Bien débuter
 
 1) Télecharger ce repos.
 2.1) Lancer le jeu directement grâce au code source.
 OU
 2.2) Installer le jeu grâce à l'installateur.
+
+### Prérequis
+
+Vous aurez besoin de python3 ainsi que de pygame.
+
+# Auteurs
+
+* **Hugo MANI** **Théo CERUTTI**
 
 # Rendu 
 
