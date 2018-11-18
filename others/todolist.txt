@@ -1,0 +1,17 @@
+#CE QU'IL FAUT FAIRE
+#résoudre bugs
+
+
+#PROBLEME RENCONTRES/BUGS
+#comme le return camera remet toujours la cata au milieu alors quand on bouge la cata vers la gauche et qu'il y a un return camera et bien on sort de l'écran -> je doit alors faire que si y'a une limite y'a plus de return camera -> non en faite je dois surtout trouver la bonne formule pour que diff_longuer prenne en compte une certaine limite
+#lorsque proj1 reste sur cata2 --> au changement de tour --> perd une vie
+
+#PROBLEME ET LEURS SOLUTION
+#* le shift ne peut se faire car la pos_x_obj ne fait que baisser, ce systeme de shift ne va pas avec les projectiles --> j'ai ajouté un intermediaire posx_shift qui elle ne se remet pas a 500
+#* si je shift deux fois en mm temps (ex: haut/droite) y'a un bug car il affiche l'image quand y'a un shift mais quand il y eb a deux alors le shift en premier prend le dessus./ faire un fonc affichage qui se fait a la fin --> j'ai enlevé les shifts haut/bas
+#* lors du shift les positions ne sont pas changés (même si l'affichage lui est modifié) --> j'ai   juste return la valeur
+#* plusieurs bug de shift bizarres : j'avais oublié de reinitialiser self.pox_shift dans le fonc de reset !
+#* faire un bon shift -> lorsque je prends proj1 -> shift sur proj2/cata2; si je prends proj2 -> shift sur proj1/cata1 ---> j'ai utilisé
+#* pas de shift pour la trajectoire --> j'avais oublié de mettre les pts_trajectoire des deux cata (j'avais juste mis self)
+#*faire que le camera return mette toujours la cata au milieu -Wvoir code
+#*#lorsque que je shoot le proj va un peu dans le sol voir dans la fonc shoot --> voir code
