@@ -1,24 +1,25 @@
-# Projet ISN
+# ISN Project
 
-## Type de jeu
+## Type of game
 
-Ce projet en ISN fait en python avec la librairie graphique Tkinter est un jeu de catapulte inspiré d'Angry Birds.
+This project is made with Python3 and Tkinter library.
+It's a catapult game inspired by Angry Birds.
 
-## Bien débuter
+## Getting started
 
-1) Télécharger ce repos
-2.1) Lancer le jeu directement grâce au code source.
+1) Download this repository
+2.1) ```python3 rpg.py```
 OU
-2.2) Installer le jeu grâce à l'installateur.
+2.2) Download the game with the downloader.
 
-### Prérequis
+### Requirements
 
-Vous aurez besoin de python3 ainsi que de pygame.
+Python3 and Pygame [Download](https://www.pygame.org/news)
 
-# Auteurs
+# Authors
 
 * **Hugo MANI** **Théo CERUTTI**
 
-# Rendu
+# View
 
 ![angrybird](https://user-images.githubusercontent.com/44285344/48670540-7be33e00-eb19-11e8-8fb5-b2c0e541bfdf.png)
