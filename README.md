@@ -8,9 +8,10 @@ It's a catapult game inspired by Angry Birds.
 ## Getting started
 
 1) Download this repository
-2.1) ```python3 rpg.py```
+2) ```cd src```
+3.1) ```python3 main.py```
 OU
-2.2) Download the game with the downloader.
+3.2) Download the game with the downloader.
 
 ### Requirements
 
